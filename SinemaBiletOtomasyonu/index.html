@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Sinema Bilet Otomasyonu</title>
+</head>
+
+
+
+<body>
+<div class="container">
+
+    <div class="screen"></div>
+
+
+
+
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat reserved"></div>
+        <div class="seat reserved"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat reserved"></div>
+        <div class="seat"></div>
+    </div>
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat reserved"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat reserved"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+
+    
+</div>
+
+<div class="movie-list">
+    <select name=" " id="movie" >
+        <option value="">Film Seçiniz</option>
+        <option value="50">Pirates of The Carribean</option>
+        <option value="30">Interstellar</option>
+        <option value="40">Pride and Prejudice</option>
+        <option value="20">Anna Karenina</option>
+    </select>
+</div>
+
+<ul class="info">
+    <li>
+        <div class="seat"></div>
+        <small>Boş Koltuk</small>
+    </li>
+    <li>
+        <div class="seat reserved"></div>
+        <small>Dolu Koltuk</small>
+    </li>
+    <li>
+        <div class="seat selected"></div>
+        <small>Seçilen Koltuk</small>
+    </li>
+</ul>
+
+
+
+<p class="text">
+    <span id="count">-</span> bilet için ödenecek tutar <span id="amount">-</span> TL dir.
+</p>
+
+
+
+
+
+
+
+ 
+
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
