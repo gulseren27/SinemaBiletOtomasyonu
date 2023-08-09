@@ -1,0 +1,2 @@
+# SinemaBiletOtomasyonu
+ Javascript pekiştirmesi
