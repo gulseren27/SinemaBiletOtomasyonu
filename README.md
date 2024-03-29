@@ -1,2 +1,3 @@
 # SinemaBiletOtomasyonu
- Javascript pekiştirmesi
+ Javascript pekiştirmesini sağlayan bilet alma otomasyonu
+ 
